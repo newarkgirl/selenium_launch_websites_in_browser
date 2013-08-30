@@ -1,0 +1,18 @@
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class Sample_Selenium {
+
+	public static void main(String[] args) {
+		
+		FirefoxDriver dr1 = new FirefoxDriver();
+		FirefoxDriver dr2 = new FirefoxDriver();
+		
+		
+		dr1.get("http://cnnmoney.com");
+		dr2.get("http://yahoo.com");
+
+	}
+
+}
